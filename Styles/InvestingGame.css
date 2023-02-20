@@ -1,0 +1,15 @@
+#result {
+    margin-top: 10px;
+  }
+  
+#result-gain {
+  color: green;
+}
+
+#result-loss {
+    color: red;
+}
+
+#chart {
+    background-color: #000000;
+}

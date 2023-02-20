@@ -1,0 +1,35 @@
+#pump-btn {
+    position: fixed;
+    top: 40px; /* ajuste o valor de acordo com sua preferência */
+    left: 40%;
+    transform: translateX(-50%);
+  }
+  
+#balloon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(1);
+    transition: transform 0.2s;
+  }
+#central {
+  position: fixed;
+  top: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#result {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#finalize-btn{
+  position: fixed;
+  top: 40px; /* ajuste o valor de acordo com sua preferência */
+  left: 60%;
+  transform: translateX(-50%);
+}
+
