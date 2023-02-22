@@ -1,0 +1,3 @@
+jogo de investimento, mostrando um card e o cara fala se gosta ou não
+semelhante ao de cima, mas com taxas de retornos
+perguntar o motivo de ter escolhido daquela forma
