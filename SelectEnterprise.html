@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selecionar Empresas</title>
+    <link rel="stylesheet" type="text/css" href="Styles/SelectEnterprise.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="card">
+
+            <div class="card-header">
+                <h2>Empresa Exemplo</h2>
+            </div>
+
+            <div class="card-body">
+                <p>Liquidez Seca: <span id="liquidez-seca"></span></p>
+                <p>Giro de ativos: <span id="giro-ativos"></span></p>
+                <p>Giro de estoque: <span id="giro-estoque"></span></p>
+                <p>EBITDA: <span id="ebitda"></span>%</p>
+                <p>Margem líquida: <span id="margem-liquida"></span>%</p>
+                <canvas id="chart"></canvas>
+            </div>
+
+            <div class="card-footer">
+                <button id="curtir-btn">Curtir</button>
+                <button id="descurtir-btn">Descurtir</button>
+            </div>
+        </div>
+
+      <div id="motivos-dropdown-post" class="dropdown">
+        <form>
+            <h2>Por que você decidiu investir nessa empresa?</h2>
+            <label>
+                <input type="radio" name="option" value="APost">
+                A) EBITDA Bom
+            </label>
+            <label>
+                <input type="radio" name="option" value="BPost">
+                B) Margem Boa
+            </label>
+            <label>
+                <input type="radio" name="option" value="CPost">
+                C) Setor Bom
+            </label>
+            <label>
+                <input type="radio" name="option" value="DPost">
+                D) Nenhuma das superiores
+            </label>
+            <button type="button" id="confirm-btn">Confirm</button>
+        </form>
+      </div> 
+
+      <div id="motivos-dropdown" class="dropdown">
+        <form>
+            <h2>Por que você decidiu não investir nessa empresa?</h2>
+            <label>
+                <input type="radio" name="option" value="ANeg">
+                A) EBITDA Ruim
+            </label>
+            <label>
+                <input type="radio" name="option" value="BNeg">
+                B) Margem Ruim
+            </label>
+            <label>
+                <input type="radio" name="option" value="CNeg">
+                C) Setor Ruim
+            </label>
+            <label>
+                <input type="radio" name="option" value="DNeg">
+                D) Nenhuma das superiores
+            </label>
+            <button type="button" id="confirm-btn">Confirm</button>
+          </form>
+      </div>      
+    </div>
+    <script src="Scripts/SelectEnterprise.js"></script>
+  </body>
+  
+</html>

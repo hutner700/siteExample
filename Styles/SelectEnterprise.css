@@ -1,0 +1,50 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+.card-footer {
+    display: flex;
+    justify-content: center; /* centraliza os botões */
+    margin-top: 20px;
+}
+  
+.dropdown {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    text-align: center;
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+    width: 640px;
+}
+  
+.dropdown label {
+    display: flex;
+    flex-direction: column;
+}
+  
+.show {
+    display: block;
+}
+  
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#chart {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+}
+  

@@ -4,7 +4,7 @@ function DistNormal(mu, sigma) {
     let z1 = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
     let x = mu + sigma * z1;
     return x;
-  }
+}
 
 const checkBigger = (ctx, color_a, color_b) => ctx.p0.parsed.y > ctx.p1.parsed.y ? color_a : color_b;
 
