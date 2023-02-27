@@ -3,14 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ol {
+            border: 1px solid #333;
+            border-radius: 5px;
+            width: 200px;
+            height: 150px;
+            padding: 0 20px;
+            list-style-type: none;
+        }
+
+        li::before {
+            content: "•";
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <ol>
-    <li><a class="nav-link" href="InvestingGame.html">Simulação Investimento</a></li>
-    <li><a class="nav-link" href="BaloonGame.html">Exemplo Balão</a></li>
-    <li><a class="nav-link" href="PushTheBox.html">Empurre a caixa</a></li>
-    <li><a class="nav-link" href="ChooseRisk.html">Escolha o Ideal</a></li>
-    <li><a class="nav-link" href="SelectEnterprise.html">Escolha o Ideal</a></li>
+        <li><a class="nav-link" href="InvestingGame.html">Simulação Investimento</a></li>
+        <li><a class="nav-link" href="BaloonGame.html">Exemplo Balão</a></li>
+        <li><a class="nav-link" href="PushTheBox.html">Empurre a caixa</a></li>
+        <li><a class="nav-link" href="ChooseRisk.html">Escolha o Ideal</a></li>
+        <li><a class="nav-link" href="SelectEnterprise.html">Aceite ou recuse a empresa</a></li>
     </ol>
 </body>
 </html>

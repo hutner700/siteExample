@@ -94,34 +94,21 @@ let dataFaturamento = multiplicarAnteriorNormal(50, 1,.2)
 let chartA = createChart("chart", dataFaturamento, "Faturamento")
 
 
-let selected = false;
 
 // Detectar quando o usuário clicou no botão "curtir"
 document.getElementById("curtir-btn").addEventListener("click", function() {
   // Exibir o dropdown com os motivos para investir
-  if (!selected) {
     if (document.getElementById("motivos-dropdown").classList.contains("show")) {
-      document.getElementById("motivos-dropdown").classList.remove("show");
+        document.getElementById("motivos-dropdown").classList.remove("show");
     }
     document.getElementById("motivos-dropdown-post").classList.add("show");
-    selected = true;
-  } else {
-    document.getElementById("motivos-dropdown-post").classList.remove("show");
-    selected = false;
-  }
 });
 
 // Detectar quando o usuário clicou no botão "descurtir"
 document.getElementById("descurtir-btn").addEventListener("click", function() {
   // Exibir o dropdown com os motivos genéricos para não investir
-  if (!selected) {
     if (document.getElementById("motivos-dropdown-post").classList.contains("show")) {
-      document.getElementById("motivos-dropdown-post").classList.remove("show");
+        document.getElementById("motivos-dropdown-post").classList.remove("show");
     }
     document.getElementById("motivos-dropdown").classList.add("show");
-    selected = true;
-  } else {
-    document.getElementById("motivos-dropdown").classList.remove("show");
-    selected = false;
-  }
 });
