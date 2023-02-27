@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Escolha Simples</title>
+    <link rel="stylesheet" type="text/css" href="Styles/ChooseRisk.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <h1>Escolha Simples</h1>
+    <div id="chart-container">
+      <canvas id="chartA"></canvas>
+      <canvas id="chartB"></canvas>
+      <canvas id="chartC"></canvas>
+      <canvas id="chartD"></canvas>
+    </div>
+    <div id="options-container">
+      <form>
+        <h2>Escolha qual opção mais adequada</h2>
+        <label>
+          <input type="radio" name="option" value="A">
+          A) Superior Esquerdo
+        </label>
+        <label>
+          <input type="radio" name="option" value="B">
+          B) Superior Direito
+        </label>
+        <label>
+          <input type="radio" name="option" value="C">
+          C) Inferior Esquerdo
+        </label>
+        <label>
+          <input type="radio" name="option" value="D">
+          D) Inferior Direito
+        </label>
+        <button type="button" id="confirm-btn">Confirm</button>
+      </form>
+    </div>
+    <script src="Scripts/ChooseRisk.js"></script>
+  </body>
+</html>
