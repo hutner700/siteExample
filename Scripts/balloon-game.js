@@ -7,7 +7,7 @@ function DistNormal(mu, sigma) {
   }
 
 
-const MAX_SIZE = DistNormal(800,50) 
+const MAX_SIZE = DistNormal(600,50) 
 
 const balloon = document.getElementById('balloon');
 const pumpBtn = document.getElementById('pump-btn');
