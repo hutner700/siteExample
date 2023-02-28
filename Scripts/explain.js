@@ -12,7 +12,7 @@ const controller = {
     2: {
         "Name":"Exemplo Balão",
         "Texto": `Esse é um exemplo para ver o quanto a pessoa está sujeita ao Risco. Nele havera 3 balões, um inicial Vermelho, um alerta Alaranjado (é bem perceptivel a diferença) e um Critico que ficará azulado.
-         Apertando o botão "Encher" ele encherá, se explodir perde tudo, quanto maior, maior a recompensa`,
+         Apertando o botão "Encher" ele encherá, se explodir perde tudo, quanto maior, maior a recompensa. Clique em "Finalizar" quando ficar desconfortavel.`,
         "URL": "BaloonGame.html"
     },
     3: {
